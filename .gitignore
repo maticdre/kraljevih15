@@ -44,4 +44,5 @@ next-env.d.ts
 # ai insturctions
 AGENTS.md
 CLAUDE.md
-
+.aiexclude
+docs/prompts
