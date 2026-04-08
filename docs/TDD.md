@@ -14,8 +14,23 @@
 
 - **Free Tier Conservation:** Design system to be conservative on resoursec to stay within Vercel and Supabase free tier limits without sacrificing the user experience
 
-## File Structure
+- **Modualar & Maintainable:** Aim for a clear seperation between the game engine (logic), game state (data) and UI to ensure the code is easy to understand, test and modify (maintainable) in the long term
 
+## File Structure
+```
+.
+├── docs/                
+│   ├── ADR.md           # Architecture Decisions
+│   ├── PRD.md           # Product Requirements
+│   ├── SCHEMA.md        # Data Models
+│   ├── TDD.md           # Technical Design
+│   └── TODO.md          # Project Roadmap
+├── public/              
+├── src/
+│   └── app/             # Next.js App Router
+├── next.config.ts       
+└── package.json 
+```
 ## Implementation Details
 
 ## Infrstructure
